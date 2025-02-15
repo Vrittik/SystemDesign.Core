@@ -51,8 +51,14 @@ Example:
 Lets take a WhetherStationObservable and TvObserver and MobileObserver
 
 WhetherStationObservable has property currentTemp, it will update currentTemp
-and it will notify the observers in each 10 seconds.
+and it will notify the observers in each 2 seconds.
 
+
+Lets take a StockObservable and IphoneObserver
+
+StockObservable has property currentStock, it will update currentStock
+and it will notify the observers whenever stocks has been updated from 
+0 to some value.
 
 
 -----------------------
