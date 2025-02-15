@@ -1,6 +1,7 @@
-package systemDesignPattern.ObserverDesignPattern;
+package systemDesign.Core.ObserverDesignPattern;
 
 import java.util.*;
+
 
 public class WhetherStationObservable implements IObservable{
 	List<IObserver> observers = new ArrayList<>();

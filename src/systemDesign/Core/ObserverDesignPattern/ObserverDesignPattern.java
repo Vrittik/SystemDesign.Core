@@ -1,4 +1,4 @@
-package systemDesignPattern.ObserverDesignPattern;
+package systemDesign.Core.ObserverDesignPattern;
 
 import java.util.*;
 

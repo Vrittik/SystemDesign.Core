@@ -1,7 +1,8 @@
-package systemDesignPattern.ObserverDesignPattern;
+package systemDesign.Core.ObserverDesignPattern;
 
 import java.util.ArrayList;
 import java.util.List;
+
 
 public class StocksObservable implements IObservable{
 	List<IObserver> observers = new ArrayList<>();

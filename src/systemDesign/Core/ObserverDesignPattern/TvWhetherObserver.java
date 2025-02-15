@@ -1,4 +1,4 @@
-package systemDesignPattern.ObserverDesignPattern;
+package systemDesign.Core.ObserverDesignPattern;
 
 public class TvWhetherObserver implements IObserver{
 	private IObservable observable;
