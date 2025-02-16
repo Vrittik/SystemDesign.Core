@@ -1,5 +1,5 @@
-Strategy design pattern	
-------------------------
+Factory design pattern	
+----------------------
 
 Problem ->
 ----------
@@ -13,4 +13,5 @@ Pattern ->
 ----------
 Define a factory class that gets object of particular type and use
 only that factory as a dependency inside the main class
+and get the objects using that factory.
 -----------------------
