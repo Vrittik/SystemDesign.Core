@@ -36,4 +36,7 @@ Base coffee + extra milk + extra coffee
 only decorators take instance of the base class so that they have has a base
 capability and they also extends BasePizza
 
+Pattern Type ->
+----------
+Structural design pattern
 -----------------------

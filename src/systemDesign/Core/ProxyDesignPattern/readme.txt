@@ -27,4 +27,8 @@ interface using a proxy class as well.
 and that proxy class has a repository object to call the actual implementation.
 
 i.e - Proxy class "is a" implementation of the interface and "has a" dependency of the actual repository.
+
+Pattern Type ->
+----------
+Structural design pattern
 -----------------------

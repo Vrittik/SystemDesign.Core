@@ -45,16 +45,4 @@ Idle state - Press Add coin button/action
 HasMoney state - Insert coin, select product, refund button/actions
 SelectProductState - Add product code, refund button/actions
 Dispense state - dispense the product, get change actions. Note: Inventory needs to be reduced in this state
-
-
-Basic intuition:
-Define a state interface having multiple action
-A machine having the state in its parameter (is a dependency)
-Definitions of the state interface each performing some actions only
-
-In the interface prototypes, take Machine as one of the parameters when required.
-Whenever state is to be updated in  the machine, perform it inside the functions.
-
-Use the new State in main method by Machine.getCurrentState()
-and then perform other actions.
 -----------------------

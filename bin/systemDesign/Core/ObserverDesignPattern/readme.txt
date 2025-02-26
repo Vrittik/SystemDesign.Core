@@ -60,5 +60,7 @@ StockObservable has property currentStock, it will update currentStock
 and it will notify the observers whenever stocks has been updated from 
 0 to some value.
 
-
+Pattern Type ->
+----------
+Behavioral design pattern
 -----------------------

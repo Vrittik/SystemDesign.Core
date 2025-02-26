@@ -52,4 +52,9 @@ to limited notes
 1> Create atm machine, having machineState as paramater
 2> On every operation, update the machine state accoridngly
 3> Keep neccessary classes
+
+
+Pattern Type ->
+----------
+Behavioral design pattern
 -----------------------

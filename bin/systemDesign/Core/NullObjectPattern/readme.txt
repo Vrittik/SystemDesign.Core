@@ -19,4 +19,7 @@ object creation and deletion
 functions - return null
 for int return type functions return 0.
 
+Pattern Type ->
+----------
+Behavioral design pattern
 -----------------------

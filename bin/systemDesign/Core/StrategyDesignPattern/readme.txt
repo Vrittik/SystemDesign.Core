@@ -25,4 +25,8 @@ In the child classes, call the super constructor in the child constructor and
 pass the respective class strategy which is needed in that class
 This will avoid duplication of the drive methods inside respective classes
 which needs same capability.
+
+Pattern Type ->
+----------
+Behavioral design pattern
 -----------------------

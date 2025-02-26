@@ -25,4 +25,8 @@ and luxury vehicle factory can only return bmw and mercedes.
 In main method, only abstractVehicleFactory will be defined and 
 then different factories will be extracted from it, and then 
 vehicles will be extracted from the abstracted factories.
+
+Pattern Type ->
+----------
+Creational design pattern
 -----------------------
