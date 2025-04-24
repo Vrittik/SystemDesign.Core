@@ -25,7 +25,7 @@ public class StocksObservable implements IObservable{
 		int previousStockCount = stockCount;
 		stockCount = newStockCount;
 		
-		if(previousStockCount == 0 && newStockCount != 0)
+		if(previousStockCount == 0 && newStockCount > 0)
 		{
 			for(IObserver observer : observers)
 			{
