@@ -1,21 +1,20 @@
 package systemDesign.Core.ChainOfResponsibility;
 
 public class ErrorLogger extends Logger {
-	
+
 	public ErrorLogger(Logger nextLogger)
 	{
-		super(nextLogger); // invoke parameterized constructor of parent class
+		super(nextLogger);
 	}
-	
-	public void logMessage(int logLevel, String message)
-	{
-		if(logLevel == ERROR)
+
+	public void logMessage(int level, String message) {
+		if(level == ERROR)
 		{
-			System.out.println("Log level Error = " + logLevel + " Message = " + message);
+			System.out.println("This is an ERROR catcher, message = " + message);
 		}
-		else
-		{
-			super.logMessage(logLevel, message);
+		else{
+			System.out.println("Couldn't catch in ERROR logger");
+			super.logMessage(level, message);
 		}
 	}
 }

@@ -1,22 +1,22 @@
 package systemDesign.Core.ChainOfResponsibility;
 
 public class Logger {
+	public static int DEBUG = 1;
+	public static int ERROR = 2;
+	public static int INFO = 3;
 
-	public static int INFO = 1;
-	public static int DEBUG = 2;
-	public static int ERROR = 3;
-	private Logger nextLogger;
-	
-	public Logger(Logger nextLogger)
+	private final Logger nextLogger;
+
+	public Logger(Logger _nextLogger)
 	{
-		this.nextLogger = nextLogger;
+		nextLogger = _nextLogger;
 	}
-	
-	public void logMessage(int logLevel, String message)
+
+	public void logMessage(int level, String message)
 	{
-		if(this.nextLogger != null)
+		if (nextLogger != null)
 		{
-			nextLogger.logMessage(logLevel, message);
+			nextLogger.logMessage(level, message);
 		}
 	}
 }

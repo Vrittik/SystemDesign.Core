@@ -1,21 +1,20 @@
 package systemDesign.Core.ChainOfResponsibility;
 
 public class InfoLogger extends Logger {
-	
+
 	public InfoLogger(Logger nextLogger)
 	{
-		super(nextLogger); // invoke parameterized constructor of parent class
+		super(nextLogger);
 	}
-	
-	public void logMessage(int logLevel, String message)
-	{
-		if(logLevel == INFO)
+
+	public void logMessage(int level, String message) {
+		if(level == INFO)
 		{
-			System.out.println("Log level Info = " + logLevel + " Message = " + message);
+			System.out.println("This is an INFO catcher, message = " + message);
 		}
-		else
-		{
-			super.logMessage(logLevel, message);
+		else{
+			System.out.println("Couldn't catch in INFO logger");
+			super.logMessage(level, message);
 		}
 	}
 }

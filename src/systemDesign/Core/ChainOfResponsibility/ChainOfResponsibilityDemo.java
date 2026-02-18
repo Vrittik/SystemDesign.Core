@@ -4,12 +4,14 @@ public class ChainOfResponsibilityDemo {
 
 	public static void main(String[] args)
 	{
-		DebugLogger debugLogger = new DebugLogger(null);
-		ErrorLogger errorLogger = new ErrorLogger(debugLogger);
-		InfoLogger infoLogger = new InfoLogger(errorLogger);
-		
-		infoLogger.logMessage(Logger.ERROR, "This is an ERROR message");
-		infoLogger.logMessage(Logger.DEBUG, "This is a DEBUG message");
+		ErrorLogger errorLogger = new ErrorLogger(null);
+		DebugLogger debugLogger = new DebugLogger(errorLogger);
+		InfoLogger infoLogger = new InfoLogger(debugLogger);
+
+		infoLogger.logMessage(Logger.ERROR, "This is an error message");
+		System.out.println();
+		infoLogger.logMessage(Logger.DEBUG, "This is a debug message");
+		System.out.println();
 		infoLogger.logMessage(Logger.INFO, "This is an INFO message");
 	}
 }
