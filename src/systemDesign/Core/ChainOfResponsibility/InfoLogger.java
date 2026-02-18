@@ -1,4 +1,4 @@
-package systemDesign.Core.ChangeOfResponsibility;
+package systemDesign.Core.ChainOfResponsibility;
 
 public class InfoLogger extends Logger {
 	

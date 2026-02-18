@@ -25,7 +25,8 @@ public class SingletonDesignPattern {
 		Thread t1 = new Thread(createObjectTask, "Thread1");
 		Thread t2 = new Thread(createObjectTask, "Thread2");
 
-		// Two different objects will be created
+		// Two different objects will be created, although not a guarantee (Might
+		// not fall exactly concurrent)
 		t1.start();
 		t2.start();
 		//Thread created object hashcode = 277558799
