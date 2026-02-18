@@ -14,4 +14,9 @@ public class SingletonClass {
 		}
 		return singletonClass;
 	}
+
+	// Method to understand thread runners
+	public static void flushObject(){
+		singletonClass = null;
+	}
 }
