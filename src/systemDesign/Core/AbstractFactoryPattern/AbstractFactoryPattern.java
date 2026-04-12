@@ -17,6 +17,5 @@ public class AbstractFactoryPattern {
 		{
 			System.out.println("Getting wrong vehicles from wrong factories");
 		}
-		
 	}
 }

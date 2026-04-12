@@ -18,7 +18,6 @@ new e-commerce system.
 
 Pattern ->
 ----------
-
 The Adapter Design Pattern is used when you need to bridge the
 gap between incompatible interfaces. It acts as a wrapper that 
 allows two different systems to communicate without 

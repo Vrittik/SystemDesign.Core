@@ -5,12 +5,12 @@ Problem ->
 ----------
 Whenever you want to instantiate new objects inside a class
 we have to define dependency of those objects inside the class
-either through constructor injection or autowiring.
+either through constructor injection or field injection (autowiring).
 This creates tight coupling amongst the classes.
-Also when the objects can be logically grouped into some components
+Also, when the objects can be logically grouped into some components
 like Vehicles is the abstract, there can be vehicles like
-mercedes, bmw, maruti, hyundai. Now mercedes and bmw can be places as 
-luxury vehicles and maruti and hyundai as oridinar vehicles.
+mercedes, bmw, maruti, hyundai. Now mercedes and bmw can be placed as
+luxury vehicles and maruti and hyundai as ordinary vehicles.
 
 
 Pattern ->

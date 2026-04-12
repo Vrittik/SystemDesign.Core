@@ -11,7 +11,7 @@ Whoever has subscribed to the product's count should get the notification
 Pattern ->
 ----------
 There are 2 components observable and observer
-whenever state of observable is changes (s1 -> s2 and s2->s3), it will update 
+whenever state of observable is changed (s1 -> s2 and s2 -> s3), it will update
 every observer that its state has changed and whatever operation
 is required to be done on new state can be done.
 
