@@ -81,7 +81,7 @@ so 125 -> (21) Base62
 Assume if the remainder was anywhere between 10-62, characters will take over then
 
 this is the order
-CHARS = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+CHARS = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
 
 Lets assume an ID = 165 has come
 Num = 165
@@ -100,6 +100,8 @@ Because Base64 encoding has elements which are not allowed in urls
 62     → +
 63     → /
 
-The "+", "/" are not allowed for urls as they have entirely different meanings
+- The "+", "/" are not allowed for urls as they have entirely different meanings
 in terms of http urls
+- Works on bytes, not integers
+- Adds unnecessary complexity
 
