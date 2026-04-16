@@ -1,4 +1,4 @@
-package systemDesign.Core.RateLimiters;
+package systemDesign.Core.Problems.RateLimiters;
 
 public class TokenBucket {
     private final int limit;

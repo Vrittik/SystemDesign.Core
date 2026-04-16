@@ -1,4 +1,4 @@
-package systemDesign.Core.RateLimiters;
+package systemDesign.Core.Problems.RateLimiters;
 
 public class LeakyBucket {
     private final int capacity;

@@ -1,4 +1,4 @@
-package systemDesign.Core.RateLimiters;
+package systemDesign.Core.Problems.RateLimiters;
 
 public class FixedWindowCounter {
     private final long windowSize;

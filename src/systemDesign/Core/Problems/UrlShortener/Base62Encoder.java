@@ -1,4 +1,4 @@
-package systemDesign.Core.UrlShortener;
+package systemDesign.Core.Problems.UrlShortener;
 
 public class Base62Encoder {
     private static final String CHARS = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";

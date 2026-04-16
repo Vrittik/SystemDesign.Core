@@ -1,4 +1,4 @@
-package systemDesign.Core.UrlShortener;
+package systemDesign.Core.Problems.UrlShortener;
 
 public class UrlshortenerDemo {
     public static void main(String[] args)

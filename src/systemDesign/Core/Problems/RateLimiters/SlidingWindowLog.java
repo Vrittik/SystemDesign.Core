@@ -1,4 +1,4 @@
-package systemDesign.Core.RateLimiters;
+package systemDesign.Core.Problems.RateLimiters;
 
 import java.util.LinkedList;
 import java.util.Queue;

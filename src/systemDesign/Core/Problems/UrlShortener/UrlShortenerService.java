@@ -1,4 +1,4 @@
-package systemDesign.Core.UrlShortener;
+package systemDesign.Core.Problems.UrlShortener;
 
 import java.util.HashMap;
 import java.util.Map;
