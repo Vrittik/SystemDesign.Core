@@ -8,7 +8,6 @@ public class UrlshortenerDemo {
         String longUrl = "https://google.com/search?q=system+design";
 
         String tinyUrl = urlShortenerService.shorten(longUrl);
-
         System.out.println("The tiny url = " + tinyUrl);
 
         String originalUrl = urlShortenerService.redirect(tinyUrl);
